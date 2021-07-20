@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Easy-Bank </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="easybank.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+            
+</head>
+<body>
+<style>
+ * {
+  box-sizing: border-box;
+}
+
+.column {
+  height: 350px;
+  flex: 1 1 350px;
+  margin: 20px;
+
+}
+.row{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  transition: all 0.2 linear;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<header>
+        
+<nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Easy-Bank</label>
+        <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <!-- <li><a href="./index.html" target="_blank">Test Link</a></li> -->
+                <li><a href="#abc">About</a></li>
+                <li><a href="customer.html">Customers</a></li>
+                <li><a href="transactions.html">Transfer Money</a></li>
+                
+        </ul>
+</nav>
+
+        <main >
+                <section>
+                        <h3>Easy-Bank</h3>
+                        <p>"Easiest Way to Transfer money in seconds!"</p>
+                        <a href="transactions.html" class="buttonone">Transfer Money</a>
+                        <a href="customer.html" class="buttonone">Customer Details</a>
+                        <!-- <br><br><br>
+                        <a href="./index.html" target="_blank" class="buttonone" style="font-weight: bold;">Test Link</a> -->
+                        <br>
+                       
+                </section>
+                
+        </main>
+        
+        <!-- <br>
+        <br> -->
+        <section id="abc" >
+                <br>
+                <p style="font-size:xx-large; font-weight: bold;">About Us</p>
+                <br>
+            <p>"We provide loans,accept deposits and many more!"</p>
+            <p>"Come Join us"</p>
+            <div class="row">
+                <div class="column" >
+                  <img src="abcd.jpeg" alt="Snow" style="width:100%" height="350px">
+                </div>
+                <div class="column">
+                  <img src="1.jpg" alt="Forest"  style="width:100%" height="350px">
+                </div>
+                <div class="column">
+                   <img src="3.jpg" alt="Forest" style="width:100%" height="350px">
+                </div>
+
+               
+              </div>
+         </section>
+
+         <section id="footer">
+
+          <hr>
+          <p class="get-social">Get Social</p>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook social-icon"></i></a>
+          <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter social-icon"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
+          <a href="https://mail.google.com/" target="_blank"><i class="fas fa-envelope social-icon"></i></a>
+          <hr>
+      
+          <p class="copyright">© Copyright 2021 Easy-Bank.<br>All Rights Reversed.</p>
+      
+        </section>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+        <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+      
+        <!-- aos data  -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration: 700,
+          });
+        </script>
+
+      
+
+
+</header>
+
+</body>
+</html>

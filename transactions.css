@@ -1,6 +1,8 @@
   
 body {
-    background-color: #f6ecf0;
+    /* background-color: #000000; */
+    background-image: url('/transcationbg.jpg');
+    background-repeat: no-repeat;
     font-family: "Roboto", cursive;
     font-weight: bolder;
   }
@@ -11,11 +13,12 @@ body {
     font-size: 3.5rem;
     margin-top: 1.875rem;
     text-align: center;
+    color: rgb(0, 0, 0);
   }
   
   .header i {
-    color: black;
-    background-color: #8ac4d0;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
     border-radius: 50%;
     position: absolute;
     right: 70px;
@@ -44,11 +47,11 @@ body {
     font-family: "Raleway", cursive;
     color: #ffffff;
     border-radius: 5px;
-    background-image: linear-gradient(#1687a7, #276678);
+    background-image: linear-gradient(#c4c4c4, #276678);
   }
   
   td {
-    color: black;
+    color: rgb(0, 0, 0);
     background-color: #d3e0ea;
     opacity: 0.7;
   }
